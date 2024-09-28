@@ -1,0 +1,33 @@
+﻿@page "/products/details/{id}"
+@inject ENAEBLazor.ProductService.ProductService _productService
+@using ENAEBLazor.ProductService
+
+<div class="container">
+    <h3 class="text-center my-4">Detalles del Producto</h3>
+
+    @if (product != null)
+    {
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@product.NombreENAE</h5>
+                    <p class="card-text"><strong>Descripción:</strong> @product.DescripcionENAE</p>
+                    <p class="card-text"><strong>Precio:</strong> @product.PrecioENAE</p>
+                    <a href="/products" class="btn btn-primary">Volver</a>
+                </div>
+            </div>
+    }
+    else
+    {
+            <p class="text-center">Cargando detalles del producto...</p>
+    }
+</div> <!-- Closing the container div -->
+
+@code {
+    [Parameter] public string id { get; set; }
+    private Product product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await _productService.GetProductById(id);
+    }
+}

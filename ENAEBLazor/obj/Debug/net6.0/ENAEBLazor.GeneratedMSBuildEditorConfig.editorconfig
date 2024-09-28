@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = ENAEBLazor
+build_property.RootNamespace = ENAEBLazor
+build_property.ProjectDir = C:\Users\emers\Desktop\Nueva carpeta (2)\ENAEBLazor\ENAEBLazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emers\Desktop\Nueva carpeta (2)\ENAEBLazor\ENAEBLazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/Crear.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/Editar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-prc21z9tid
+
+[C:/Users/emers/Desktop/Nueva carpeta (2)/ENAEBLazor/ENAEBLazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n6ixzz8wgn

@@ -1,0 +1,37 @@
+﻿@page "/products/create"
+@inject ENAEBLazor.ProductService.ProductService _productService
+@inject NavigationManager NavigationManager
+
+<div class="container">
+    <h3 class="text-center my-4">Crear Producto</h3>
+
+    <EditForm Model="newProduct" OnValidSubmit="CreateProduct">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>Nombre</label>
+            <InputText class="form-control" @bind-Value="newProduct.NombreENAE" />
+        </div>
+        <div class="form-group">
+            <label>Descripción</label>
+            <InputText class="form-control" @bind-Value="newProduct.DescripcionENAE" />
+        </div>
+        <div class="form-group">
+            <label>Precio</label>
+            <InputNumber class="form-control" @bind-Value="newProduct.PrecioENAE" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Crear</button>
+    </EditForm>
+</div>
+
+@code {
+    private Product newProduct = new Product();
+
+    private async Task CreateProduct()
+    {
+        await _productService.CreateProduct(newProduct);
+        NavigationManager.NavigateTo("/products");
+    }
+}
